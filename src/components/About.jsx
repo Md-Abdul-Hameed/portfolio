@@ -7,13 +7,13 @@ import {
   FaGithub,
   FaHtml5,
   FaReact,
-  FaSass,
+  FaSass,FaJs
 } from "react-icons/fa";
 import {
   SiExpo,
   SiRedux,
   SiTailwindcss,
-  SiNextdotjs,
+  SiTypescript,
   SiAndroidstudio,
   SiPostman,
   SiAdobephotoshop,
@@ -23,10 +23,11 @@ import { Link } from "react-scroll";
 
 const About = () => {
   const programming = [
-    { name: "Javascript", icon: FaGithub },
-    { name: "SASS", icon: FaSass },
-    { name: "CSS", icon: FaCss3 },
     { name: "HTML", icon: FaHtml5 },
+    { name: "CSS", icon: FaCss3 },
+    { name: "Javascript", icon: FaJs },
+    { name: "TypeScript", icon: SiTypescript },
+    { name: "SASS", icon: FaSass },
   ];
   const frmwrkAndLib = [
     { name: "React", icon: FaReact },

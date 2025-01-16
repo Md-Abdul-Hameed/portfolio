@@ -6,9 +6,9 @@ import { useEffect } from "react";
 
 const Home = () => {
   const [achievements] = useState([
-    "2 years of industry experience",
-    "Solved 300+ problems on Leetcode",
-    "Rated 3 star on codechef",
+    "2 years of industry experience 💼",
+    "Solved 300+ problems on Leetcode 🚀",
+    "Rated 3 star on codechef 🌟",
     // "2 years of industry experience"
   ]);
   const [positions, setPositions] = useState([0, 1, 2]); // Tracks visual positions
